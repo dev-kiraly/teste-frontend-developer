@@ -21,6 +21,6 @@ Por mais que só foi pedido para os Fullstacks a manipulação dos dados do form
 ### Coisas que não sabia, e aprendi fazendo esse projeto:
 - Animações com Scroll.
 - Manipulação dos dados do Formulário via JavaScript após um submit.
-- Funcções JS que trocam o conteúdo de textos no HTML.
+- Funções JS que trocam o conteúdo de textos no HTML.
 - Keyframes que combinem com a troca do conteúdo dessa função acima.
-- Animação que amplia a imagem sem vazar ela pra fora da div (na Seção Serviços).
+- Animação que amplia a imagem sem vazar ela para fora da div (na Seção Serviços).
