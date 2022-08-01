@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Ellos Design</title>
+    <!--Logo para a tab-->
+    <link rel="shortcut icon" href="./Assets/Img/Logo/favicon.ico">
+    <!--Link para CSS-->
+    <link rel="stylesheet" href="./Assets/Css/Styles.css">
+</head>
+<body>
+
+    <!--Seção do Header, Headline e Formulário-->
+    <section id="formContainer">
+        <!--Header com a Logo e telefone para ligar-->
+        <header>
+            <div id="headerContainer" class="row">
+                <div id="imgLogoWrapper">
+                    <a href="./Index.html">
+                        <img id="imgLogo" src="./Assets/Img/Logo/imgLogo1.png" />
+                    </a>
+                </div>
+                
+                <div id="btCallWrapper">
+                    <a href="tel:(11) 9 7402-5776" anime="down">
+                        <button id="buttonCall">
+                            <abbr title="Ligar">
+                                (11) 9 7402-5776
+                            </abbr>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!--Card da Headline e Formulário-->
+        <div class="card">
+            <div id="headline" class="column">
+                <!--Headline que trocará a cada 5 segundos-->
+                <img id="iconHeadline" src="./Assets/Img/Icons/rocket.png" />
+                <div id="headlineText" class="column">
+                    <h1 id="h1Headline">
+                        A sua empresa entre as 
+                        <br>
+                        3 PRIMEIRAS posições do Google.
+                    </h1>
+                    
+                    <p id="pHeadline">
+                        Solicite uma proposta sem compromisso
+                    </p>
+                </div>
+            </div>
+            <!--Formulário-->
+            <div id="formWrapper">
+                <form id="form" class="column" action="#" anime="right">
+                    <h2>Solicitar um Orçamento</h2>
+                    <fieldset class="column">
+                        <legend hidden>Insira seus dados</legend>
+                        <div id="inputs">
+                                <div class="inputDiv">
+                                    <input type="text" name="name" id="name" class="inputText" placeholder="NOME:"/>
+                                </div>
+                                                        
+                                <div class="inputDiv">
+                                    <input type="email" name="email" id="email" class="inputText" placeholder="E-MAIL:"/>
+                                </div>
+                                                        
+                                <div class="inputDiv">
+                                    <input type="tel" name="phone" id="phone" class="inputText" placeholder="DDD + TELEFONE:" maxlength="13"/>
+                                </div>
+                                                    
+                                <div class="inputDiv">
+                                    <textarea name="message" id="message" class="inputText" placeholder="COMO PODEMOS TE AJUDAR?" rows="3"></textarea>
+                                </div>
+                                       
+                                <input type="submit" name="submit" id="submit" value="Enviar Solicitação"/>                
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Seção Sobre-->
+    <section id="aboutContainer" class="column">
+        <div class="card">
+            <!--Imagens da empresa que troca a cada 3 segundos-->
+            <div id="imgAboutWrapper" anime="left">
+                <img id="imgAbout" src="./Assets/Img/About/0.jpg" /> 
+            </div>
+            <div id="aboutText" class="column" anime="right">
+                <h2 class="h2CardTitle">
+                    Quem somos
+                </h2>
+                <p id="aboutP">
+                    Há mais de 10 anos no mercado, a Ellos Design tem como um de seus pilares principais, o compromisso em gerar resultados de qualidade, de maneira prática e efetiva aos nossos clientes por todo o Brasil.
+                    <br><br>
+                    Trabalhamos com afinco na melhoria e desenvolvimento de estratégias de acordo com as necessidades e condições de cada cliente, por isso, estudamos e analisamos a fundo o mercado e o meio em que estão inseridos.
+                    <br><br>
+                    Desenvolvemos soluções inovadoras, sites, portais, sistemas web, e-commerces, google ads e marketing digital para empresas de diversos segmentos.
+                    <br><br>
+                    Somos apaixonados por criar e solucionar. Além de superarmos qualquer desafio, vivemos em uma busca constante por aprendizado e INOVAÇÃO. Queremos transformar o novo e realizar o impossível.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Seção de Serviços-->
+    <section id="servicesContainer" class="column">
+        <div id="cardServices" class="card" >
+            <h2 class="h2CardTitle"  anime="up">
+                Conheça nossos serviços:
+            </h2>
+            <div id="servicesWrapper">
+                <div id="services" class="column">
+                    <div id="service1" class="service" anime="left">
+                        <img id="" class="imgService" src="./Assets/Img/Icons/responsive.png" />
+                        <div class="serviceText">
+                            <h5 class="serviceH5">Layout Responsivo</h5>
+                            <p class="serviceP">Site adaptável para smartphone, tablet e ipad</p>
+                        </div>
+                    </div>
+                    <div id="service2" class="service" anime="left">
+                        <img id="" class="imgService" src="./Assets/Img/Icons/config.png" />
+                        <div class="serviceText">
+                            <h5 class="serviceH5">Conteúdo Gerencíavel</h5>
+                            <p class="serviceP">Você mesmo(a) atualiza o conteúdo do site</p>
+                        </div>
+                    </div>
+                    <div id="service3" class="service" anime="left">
+                        <img id="" class="imgService" src="./Assets/Img/Icons/chat.png" />
+                        <div class="serviceText">
+                            <h5 class="serviceH5">Chat Online</h5>
+                            <p class="serviceP">Converse com os seus visitantes de forma rápida e eficiente</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="services">
+                    <div id="service4" class="service" anime="right">
+                        <img id="" class="imgService" src="./Assets/Img/Icons/seo.png" />
+                        <div class="serviceText">
+                            <h5 class="serviceH5">Normas Técnicas do SEO</h5>
+                            <p class="serviceP">Desenvolvimento do site nas normas técnicas do SEO</p>
+                        </div>
+                    </div>
+                    <div id="service5" class="service" anime="right">
+                        <img id="" class="imgService" src="./Assets/Img/Icons/resume.png" />
+                        <div class="serviceText">
+                            <h5 class="serviceH5">Relatório de Visitas</h5>
+                            <p class="serviceP">Crie formulários personalizados para o cadastro de leeds na sua página</p>
+                        </div>
+                    </div>
+                    <div id="service6" class="service" anime="right">
+                        <img id="" class="imgService" src="./Assets/Img/Icons/social.png" />
+                        <div class="serviceText">
+                            <h5 class="serviceH5">Redes Sociais</h5>
+                            <p class="serviceP">Integração do site com as Redes Sociais</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a id="buttonServicesA" class="row" href="#formContainer" anime="up">
+                <button id="buttonServices">Solicitar Serviços</button>
+            </a>
+        </div>
+    </section>
+
+
+
+    <!--Seção das Perguntas Frequentes-->
+    <section id="faqContainer" class="column"> 
+        <div id="cardFaq" class="card">
+            <h2 class="h2CardTitle" anime="up">Perguntas Frequentes</h2>
+            <div id="faqWrapper">
+                <div class="faqDiv" anime="up">
+                    <a class="faqA" href="https://www.ellosdesign.com.br/post/22/quando-devo-investir-em-uma-agencia-de-marketing" target="_blank">
+                        <div class="faq" >                    
+                            <h3>
+                                <abbr title="Clique e saiba mais...">
+                                    Quando devo investir em uma Agência de Marketing?        
+                                </abbr>                                                                       
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="faqDiv" anime="up">
+                    <a class="faqA" href="https://www.ellosdesign.com.br/post/20/ja-conhece-o-funil-de-vendas-entenda-essa-estrategia-poderosa-e-produza-conteudos-mais-relevantes-para-a-sua-persona" target="_blank">
+                        <div class="faq">
+                            <h3>
+                                <abbr title="Clique e saiba mais...">
+                                    O que é "funil de vendas" e por que ele é importante?
+                                </abbr>  
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="faqDiv" anime="up">
+                    <a class="faqA" href="https://www.ellosdesign.com.br/post/21/cliente-fit-quem-e-e-por-que-o-seu-negocio-precisa-dele" target="_blank">
+                        <div class="faq">
+                            <h3>
+                                <abbr title="Clique e saiba mais...">
+                                    Cliente Fit: quem é e por que o seu negócio precisa dele?       
+                                </abbr>                                             
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="faqDiv" anime="up">
+                    <a class="faqA" href="https://www.ellosdesign.com.br/post/12/tudo-sobre-branding-o-guia-definitivo" target="_blank">
+                        <div class="faq">
+                            <h3>
+                                <abbr title="Clique e saiba mais...">
+                                    O quê é Branding?      
+                                </abbr>                                   
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="faqDiv" anime="up">
+                    <a class="faqA" href="https://www.ellosdesign.com.br/post/9/o-que-e-pwa-guia-definitivo" target="_blank">
+                        <div class="faq">
+                            <h3>
+                                <abbr title="Clique e saiba mais...">
+                                    O quê é PWA?    
+                                </abbr>                                              
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Seção da Ultima chamada para ação-->
+    <section id="ctaContainer" class="column">
+        <div id="ctaCard" class="card">
+            <!--Chamada Final-->
+            <div id="ctaText" class="column" anime="left">
+                <h2 class="h2CardTitle">Destaque sua empresa!</h2>
+                <p>A Ellos Design pode destacar sua empresa da concorrencia através de várias tecnologias. Saia na frente venda muito mais com a Ellos Design!</p>
+            </div>
+            <!--Card com botão para abrir o Chat ao vivo-->
+            <div id="ctaChatCard" class="column" anime="right">
+                <div id="ctaContent" class="column">
+                    <p>
+                        Fale com nosso time de especialista ao vivo e descubra qual é o serviço ideal que a Ellos Design pode te ofereçer:
+                    </p>
+                    <div id="buttonHolder" class="column">
+                        <a id="whatsAppLink" href="https://api.whatsapp.com/send?phone=5511974025776&text=Ol%C3%A1%20Ellos%20design%20|%20Cria%C3%A7%C3%A3o%20de%20Sites%20|%20Marketing%20Digital!" target="_blank">
+                            <button id="buttonChat">
+                                <abbr title="Abrir conversa no WhatsApp">
+                                    Chat ao vivo no WhatsApp
+                                </abbr>                               
+                            </button>
+                        </a>
+                        <p>
+                            Nossos especialistas estão prontos para tirar suas dúvidas!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer class="column">
+        <div id="footerInfo">
+            Ellos design © Todos os direitos reservados - 2022
+            <br>
+            CNPJ 14.265.173/0001-46 - 2011 - 2021
+            <br>
+            Criação de Sites | Marketing Digital - Criação de Sites
+        </div>
+        
+    </footer>
+
+
+    <script src="./Assets/Js/Scripts.js"></script>
+</body>
+</html>
