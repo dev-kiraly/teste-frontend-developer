@@ -17,6 +17,9 @@ Como seria analizado a Criatividade e eu tinha liberdade para criar em cima, dec
 ## Formulário
 Por mais que só foi pedido para os Fullstacks a manipulação dos dados do formulário, resolvi dentro do meu conhecimento também manipula-los. Ao preencher o formulário corretamente, com no mínimo Nome, Email e Telefone, eu pego esses dados e insiro eles dentro de um objeto. Fiz um Array chamado clients que armazena em cada posição um  objetos com os dados do formulário. A cada vez que o formulário for submetido, o console exibe esse Array, e você pode acompanhar a introduçõa desses dados no console.
 
+## Responsivo
+Um grande desafio foi arrumar todo o responsivo para que tudo continuasse com boa usabilidade, visibilidade e agradável aos olhos. Separei em 1200px e 800px, e acredito que tenha ficado tudo ok. Testei em vários tamanhos de tela e fui arrumando as falhas.
+
 ## Aprendizado
 ### Coisas que não sabia, e aprendi fazendo esse projeto:
 - Animações com Scroll.
