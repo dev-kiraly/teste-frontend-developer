@@ -35,7 +35,7 @@
             </div>
         </header>
         <!--Card da Headline e Formulário-->
-        <div class="card">
+        <div id="headlineCard"class="card">
             <div id="headline" class="column">
                 <!--Headline que trocará a cada 5 segundos-->
                 <img id="iconHeadline" src="./Assets/Img/Icons/rocket.png" />
@@ -54,8 +54,9 @@
             <!--Formulário-->
             <div id="formWrapper">
                 <form id="form" class="column" action="#" anime="right">
-                    <h2>Solicitar um Orçamento</h2>
+                    
                     <fieldset class="column">
+                        <h2>Solicitar um Orçamento</h2>
                         <legend hidden>Insira seus dados</legend>
                         <div id="inputs">
                                 <div class="inputDiv">
@@ -86,7 +87,7 @@
 
     <!--Seção Sobre-->
     <section id="aboutContainer" class="column">
-        <div class="card">
+        <div id="aboutCard" class="card">
             <!--Imagens da empresa que troca a cada 3 segundos-->
             <div id="imgAboutWrapper" anime="left">
                 <img id="imgAbout" src="./Assets/Img/About/0.jpg" /> 
@@ -112,12 +113,12 @@
 
     <!--Seção de Serviços-->
     <section id="servicesContainer" class="column">
-        <div id="cardServices" class="card" >
+        <div id="servicesCard" class="card" >
             <h2 class="h2CardTitle"  anime="up">
                 Conheça nossos serviços:
             </h2>
             <div id="servicesWrapper">
-                <div id="services" class="column">
+                <div class="services" class="column">
                     <div id="service1" class="service" anime="left">
                         <img id="" class="imgService" src="./Assets/Img/Icons/responsive.png" />
                         <div class="serviceText">
@@ -140,7 +141,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="services">
+                <div class="services">
                     <div id="service4" class="service" anime="right">
                         <img id="" class="imgService" src="./Assets/Img/Icons/seo.png" />
                         <div class="serviceText">
@@ -253,7 +254,7 @@
                         Fale com nosso time de especialista ao vivo e descubra qual é o serviço ideal que a Ellos Design pode te ofereçer:
                     </p>
                     <div id="buttonHolder" class="column">
-                        <a id="whatsAppLink" href="https://api.whatsapp.com/send?phone=5511974025776&text=Ol%C3%A1%20Ellos%20design%20|%20Cria%C3%A7%C3%A3o%20de%20Sites%20|%20Marketing%20Digital!" target="_blank">
+                        <a id="whatsAppLink" href="https://api.whatsapp.com/send?phone=5511974025776" target="_blank">
                             <button id="buttonChat">
                                 <abbr title="Abrir conversa no WhatsApp">
                                     Chat ao vivo no WhatsApp

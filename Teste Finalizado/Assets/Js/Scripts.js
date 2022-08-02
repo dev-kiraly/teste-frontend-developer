@@ -140,3 +140,4 @@ function registerClient() {
         alert("Preencha pelo menos os campos de Nome, E-mail e Telefone para enviar sua solicitação.");
     }
 };
+
